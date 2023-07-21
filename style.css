@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: grey;
+}
+
+/*
+.main{
+    min-height: 100%;
+    min-width: 100%;
+    background-color: green;
+    position: relative;
+}
+
+.signup-btn{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    padding: 10px 20px;
+}
+
+.circle{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    border-radius: 100%;
+    bottom: 0;
+    right: 100px;
+}
+
+*/
+.main-container{
+    text-align: center;
+    width: 100%;
+}
+
+.main-container div{
+    height: 150px;
+    margin-bottom: 20px;
+    
+
+}
+
+.row1{
+    background-color: palevioletred;
+    width: 940px;
+    
+}
+
+.row2{
+    background-color: palevioletred;
+    width: 465px;
+    display: inline-block;
+}
+
+
+
+.row3 > div{
+    background-color: palevioletred;
+    width: 310px;
+    display: inline-block;
+}
+
+
+
+.row4 > div{
+    background-color: palevioletred;
+    width: 230px;
+    display: inline-block;
+}
+
+
+.row5 > div{
+    background-color: palevioletred;
+    width: 155px;
+    display: inline-block;
+}
